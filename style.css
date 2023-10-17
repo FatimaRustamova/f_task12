@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 20px 20px;
+    justify-content: space-evenly;
+}
+
+.left {
+    width: 30%;
+    box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+    -webkit-box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+    -moz-box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+}
+
+.photo {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.photo img {
+    width: 100%;
+    height: 300px;
+}
+
+.jane {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.info {
+    width: 100%;
+    height: 900px;
+    background-color: aliceblue;
+}
+
+.info hr {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid #d6d3d3;
+}
+
+.icon {
+    padding-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon div p {
+    display: flex;
+    gap: 15px;
+}
+
+.icon i {
+    color: rgb(46, 145, 145);
+    font-size: 18px;
+}
+
+.icon p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+}
+
+.skill {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.skill i {
+    color: rgb(46, 145, 145);
+}
+
+.skill p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    display: flex;
+    gap: 18px;
+}
+
+.src {
+    padding-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.star {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.percent {
+    border-radius: 20px;
+    width: 400px;
+    height: 20px;
+    background-color: rgb(203, 209, 214);
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.photoshop {
+    width: 90%;
+    background-color: rgb(46, 145, 145);
+    height: 100%;
+    border-radius: 20px;
+}
+
+.photography {
+    width: 80%;
+    background-color: rgb(46, 145, 145);
+    height: 100%;
+    border-radius: 20px;
+}
+
+.illustrator {
+    width: 75%;
+    background-color: rgb(46, 145, 145);
+    height: 100%;
+    border-radius: 20px;
+}
+
+.media {
+    width: 50%;
+    background-color: rgb(46, 145, 145);
+    height: 100%;
+    border-radius: 20px;
+}
+
+.language {
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.language i {
+    color: rgb(46, 145, 145);
+}
+
+.language p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    display: flex;
+    gap: 18px;
+}
+
+.content {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.moon {
+    width: 400px;
+    height: 25px;
+    background-color: rgb(203, 209, 214);
+    border-radius: 20px;
+}
+
+.english {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(46, 145, 145);
+}
+
+.spanish {
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(46, 145, 145);
+}
+
+.german {
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(46, 145, 145);
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience {
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+    -webkit-box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+    -moz-box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+}
+
+.work , .edu {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.work i, .edu i {
+    font-size: 38px;
+    color: rgb(46, 145, 145);
+}
+
+.work p, .edu p {
+    display: flex;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(102, 102, 102);
+}
+
+.developer, .school {
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.developer h4, .school h4 {
+    color: rgb(102, 102, 102);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.developer h6, .school h6 {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(46, 145, 145);
+    display: flex;
+    gap: 15px;
+}
+
+.developer h6 i, .school h6 i {
+    font-size: 18px;
+}
+
+.current {
+    width: 70px;
+    height: 25px;
+    background-color: rgb(46, 145, 145);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.developer p, .school p {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.experience hr , .education hr {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 850px;
+    border: 1px solid #d6d3d3;
+}
+
+.education {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+    -webkit-box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+    -moz-box-shadow: 0px 0px 19px 7px rgba(141, 141, 141, 0.69);
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(46, 145, 145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    width: 300px;
+    height: 100%;
+    text-align: center;
+}
+
+.foot p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.foot i {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.foot a {
+    color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .left {
+        width: 100%;
+    }
+
+    .container .right {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
